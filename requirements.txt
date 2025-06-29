@@ -2,4 +2,3 @@ flask
 flask-cors
 openai-whisper
 torch  # obligatorio para Whisper
-.\venv\Scripts\Activate
