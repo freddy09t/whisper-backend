@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Cargar modelo de Whisper (puede tardar)
-model = whisper.load_model("base")
+model = whisper.load_model("tiny")
 
 @app.route('/')
 def home():
